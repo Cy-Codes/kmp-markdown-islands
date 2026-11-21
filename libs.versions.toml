@@ -1,0 +1,11 @@
+[versions]
+kotlinx-coroutines = "1.11.0"
+markdown-renderer = "0.45.0"
+highlights = "1.2.0"
+
+[libraries]
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+markdown-renderer-m3 = { module = "com.mikepenz:multiplatform-markdown-renderer-m3", version.ref = "markdown-renderer" }
+markdown-renderer-code = { module = "com.mikepenz:multiplatform-markdown-renderer-code", version.ref = "markdown-renderer" }
+highlights = { module = "dev.snipme:highlights", version.ref = "highlights" }

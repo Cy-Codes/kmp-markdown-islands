@@ -1,0 +1,4 @@
+modules:
+  - markdown-islands-compose
+  - markdown-islands-core
+  - sample-desktop

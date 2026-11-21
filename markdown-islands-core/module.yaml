@@ -1,0 +1,12 @@
+product:
+  type: kmp/lib
+  platforms: [ jvm, android, iosArm64, iosSimulatorArm64, wasmJs ]
+
+apply:
+  - ../common-lib.module-template.yaml
+
+settings:
+  publishing:
+    pom:
+      name: markdown-islands-core
+      description: Pure KMP Markdown fence-island parser, outline and reading-time extractor, and XSS-safe HTML renderer.

@@ -1,0 +1,12 @@
+product: jvm/app
+
+dependencies:
+  - ../markdown-islands-compose
+  - $compose.desktop.currentOs
+  - $compose.material3
+  - $libs.kotlinx.coroutines.swing
+
+settings:
+  compose: enabled
+  jvm:
+    mainClass: codes.cy.kit.sample.markdown.MainKt
